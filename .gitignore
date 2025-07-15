@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+
+# Virtual environments
+nba-env/
+.env/
+
+# Jupyter Notebook metadata
+*.ipynb_checkpoints
+
+# Model files
+*.pkl
+
+# VS Code/IDE config
+.vscode/
+.idea/
+
+# System files
+.DS_Store
+Thumbs.db
