@@ -13,7 +13,7 @@ nba-env/
 *.ipynb_checkpoints
 
 # Model files
-*.pkl
+# *.pkl
 
 # VS Code/IDE config
 .vscode/
