@@ -1,11 +1,13 @@
+import os
 from flask import Flask, request, jsonify
 import joblib
 import numpy as np
 
 app = Flask(__name__)
 
-# Load model at startup
-model = joblib.load("models\salary_predictor_model.pkl")
+base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+model_path = os.path.join(base_dir, 'models', 'salary_predictor_model.pkl')
+model = joblib.load(model_path)
 
 @app.route("/predict", methods=["POST"])
 def predict_salary():
