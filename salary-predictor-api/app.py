@@ -5,7 +5,7 @@ import numpy as np
 app = Flask(__name__)
 
 # Load model at startup
-model = joblib.load("salary_predictor_model.pkl")
+model = joblib.load("models\salary_predictor_model.pkl")
 
 @app.route("/predict", methods=["POST"])
 def predict_salary():
