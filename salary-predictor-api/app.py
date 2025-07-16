@@ -1,9 +1,11 @@
 import os
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import joblib
 import numpy as np
 
 app = Flask(__name__)
+CORS(app)
 
 base_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 model_path = os.path.join(base_dir, 'models', 'salary_predictor_model.pkl')

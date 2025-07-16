@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NBA Salary Predictor</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      padding: 2rem;
+      max-width: 500px;
+      margin: auto;
+    }
+    input, button {
+      padding: 0.5rem;
+      margin: 0.5rem 0;
+      width: 100%;
+      font-size: 1rem;
+    }
+    #result {
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h2>NBA Salary Predictor</h2>
+  <form id="salaryForm">
+    <label>Age:</label>
+    <input type="number" id="age" required />
+
+    <label>Points Per Game (PTS):</label>
+    <input type="number" step="0.1" id="pts" required />
+
+    <label>Games Played (GP):</label>
+    <input type="number" id="gp" required />
+
+    <label>Free Throw % (FT%):</label>
+    <input type="number" step="0.01" id="ft" required />
+
+    <button type="submit">Predict Salary</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
