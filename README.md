@@ -12,8 +12,8 @@ This project is a machine learning web application that predicts the **salary of
 
 ## Live Demo
 
-- **Frontend:** [GitHub Pages](https://<your-username>.github.io/<repo-name>/)
-- **Backend API:** [Render URL](https://<your-app-name>.onrender.com)
+- **Frontend:** [GitHub Pages](https://ripslinger77.github.io/nba-salary-predictor/)
+- **Backend API:** [Render URL](https://nba-salary-predictor.onrender.com)
 
 ---
 
@@ -123,5 +123,5 @@ This project is licensed under the MIT License.
 
 ## Acknowledgments
 
-- NBA data sourced from [basketball-reference.com](https://www.kaggle.com/datasets/jamiewelsh2/nba-player-salaries-2022-23-season)
+- NBA data sourced from [kaggle.com](https://www.kaggle.com/datasets/jamiewelsh2/nba-player-salaries-2022-23-season)
 - Deployment via Render and GitHub Pages
