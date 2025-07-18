@@ -10,14 +10,14 @@ This project is a machine learning web application that predicts the **salary of
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
 - **Frontend:** [GitHub Pages](https://<your-username>.github.io/<repo-name>/)
 - **Backend API:** [Render URL](https://<your-app-name>.onrender.com)
 
 ---
 
-## 📊 Features Used for Prediction
+## Features Used for Prediction
 
 The trained model uses **4 key features**:
 - `Age`
@@ -29,7 +29,7 @@ These features were selected using **forward feature selection** to minimize mod
 
 ---
 
-## 🧠 Model Training
+## Model Training
 
 The model was trained using **XGBoost Regressor** on a dataset of 500 NBA players. Feature engineering and evaluation were done in Jupyter notebooks inside the `archive/` folder.
 
@@ -37,7 +37,7 @@ The model was trained using **XGBoost Regressor** on a dataset of 500 NBA player
 
 ---
 
-## 🧩 Project Structure
+## Project Structure
 
 ```
 nba-salary-predictor/
@@ -58,7 +58,7 @@ nba-salary-predictor/
 
 ---
 
-## 🖥️ Local Development
+## Local Development
 
 ### Backend
 
@@ -74,7 +74,7 @@ Just open `frontend/index.html` in your browser. Update the API endpoint in `scr
 
 ---
 
-## ☁️ Deployment
+## Deployment
 
 - **Backend** hosted on [Render](https://render.com/)
   - Flask API loads the `.pkl` model and returns salary prediction.
@@ -83,7 +83,7 @@ Just open `frontend/index.html` in your browser. Update the API endpoint in `scr
 
 ---
 
-## 📬 API Usage
+## API Usage
 
 `POST /predict` — Predicts salary
 
@@ -106,21 +106,22 @@ Just open `frontend/index.html` in your browser. Update the API endpoint in `scr
 
 ---
 
-## ✅ To-Do / Future Work
+## Future Work
 
-- Add player photo or team info to frontend
-- Improve model with more features (if dataset grows)
-- Add loading spinner on frontend while predicting
+- Improve frontend
+- Research and improve feature selection methodology.
+- Improve model with more features (collect more data) and try other ML algorithms
+- Maintain DB of historical salaries of players and predictions made by the model for comparison
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 👋 Acknowledgments
+## Acknowledgments
 
-- NBA data sourced from [basketball-reference.com](https://www.basketball-reference.com/)
+- NBA data sourced from [basketball-reference.com](https://www.kaggle.com/datasets/jamiewelsh2/nba-player-salaries-2022-23-season)
 - Deployment via Render and GitHub Pages
